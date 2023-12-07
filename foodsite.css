@@ -1,0 +1,199 @@
+body{
+    overflow-x: hidden;
+}
+.box {
+    width: 100%;
+    float: left;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: white;
+
+}
+
+.box ul li {
+    width: 120px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+.box ul li a {
+    color: green;
+    text-decoration: none;
+    font-size: large;
+}
+
+.box ul li a:hover {
+    color: rgba(0, 128, 70, 0.6)
+}
+
+header {
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 10px;
+    margin-left: 10px;
+    color: green
+}
+
+#banner {
+    background-image: url(/images/pexels-ella-olsson-1640773.jpg);
+    width: "100%";
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@media screen and (max-width:400px) {
+    body{
+        font-size: 10px;
+        text-align:end;
+    } 
+        
+    .box{
+        height: 40%;
+        width: 100%;
+        float: left;
+
+    }
+    #sec1 {
+        text-align: left; 
+        padding: 10px; 
+        margin-left:  25px; ;
+    }
+
+    #sec1 #desc {
+        font-size: 1em; 
+        line-height: 1.5; 
+    }
+    #menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        size: 10px;
+    }
+
+    .row1,
+    .row2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -567px;
+    }
+
+    .c-1 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px; 
+
+    }
+
+    .c-1 img {
+        width: 100%;
+        max-width: 250px; 
+
+    }
+
+    .box {
+        text-align: center;
+    }
+
+    .box ul {
+        padding: 0;
+    }
+
+    .box ul li {
+        display: inline-block;
+        margin: 10px;
+    }
+}
+
+
+
+
+#sec1 {
+    text-align: justify;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 200px;
+    margin-left: 35px;
+    border: 2px solid green;
+
+}
+
+p {
+    text-align: center;
+    color: brown;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: larger;
+
+}
+
+#about {
+    text-align: center;
+    color: brown;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+#menu {
+    margin-top: 20px;
+    margin-left: 300px;
+    float: left;
+    width: 100%;
+}
+
+.c-1 {
+    border: 2px solid green;
+    float: left;
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
+    height: 400px;
+    transition: tranform 0.2s ease;
+    margin-left: 0;
+}
+.c-1:hover{
+    transform: scale(1.055);
+}
+
+.row1 {
+    float: left;
+    text-align: center;
+}
+
+.row2 {
+    float: left;
+    text-align: center;
+
+}
+
+#btn {
+    text-align: center;
+    color: brown;
+    border-color: green;
+}
+
+.socials{
+    display: flex;
+    border: 2px solid green;
+    padding: 30px;
+    text-align: justify;
+    justify-content: center;
+    padding-left: 20px;
+    list-style-position: inside;
+    list-style-type: none;
+    margin: 5px 0;
+    margin-bottom: 10px;
+    flex-direction: row;
+    gap: 70px;
+    background-color: white;
+
+}
+
